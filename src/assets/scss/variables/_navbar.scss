@@ -1,0 +1,40 @@
+$navbar-background:                              #181818;
+$navbar-color-mode:                              none;
+
+$navbar-nav-item-height:                         92px;
+$navbar-nav-item-padding-horizontal:             18px;
+$navbar-nav-item-color:                          #a9afba;
+$navbar-nav-item-font-size:                      0.875rem;
+$navbar-nav-item-font-family:                    $global-font-family;
+$navbar-nav-item-hover-color:                    lighten($global-color, 35%);
+$navbar-nav-item-onclick-color:                  $global-inverse-color;
+$navbar-nav-item-active-color:                   $global-inverse-color;
+
+$navbar-item-color:                              $global-color;
+
+$navbar-toggle-color:                            $global-muted-color;
+$navbar-toggle-hover-color:                      $global-color;
+
+$navbar-subtitle-font-size:                      $global-small-font-size;
+
+$navbar-dropdown-margin:                         0;
+$navbar-dropdown-shift-margin:                   0;
+$navbar-dropdown-viewport-margin:                15px;
+$navbar-dropdown-width:                          200px;
+$navbar-dropdown-padding:                        15px;
+$navbar-dropdown-background:                     $global-inverse-color;
+$navbar-dropdown-color:                          $global-color;
+$navbar-dropdown-color-mode:                     none;
+$navbar-dropdown-grid-gutter-horizontal:         40px;
+$navbar-dropdown-grid-gutter-vertical:           $navbar-dropdown-grid-gutter-horizontal;
+
+$navbar-dropdown-nav-item-color:                 $global-emphasis-color;
+$navbar-dropdown-nav-item-hover-color:           $global-color;
+$navbar-dropdown-nav-item-active-color:          darken($global-primary-background, 10%);
+$navbar-dropdown-nav-subtitle-font-size:         $global-small-font-size;
+$navbar-dropdown-nav-header-color:               $global-emphasis-color;
+$navbar-dropdown-nav-divider-border-width:       $global-border-width;
+$navbar-dropdown-nav-divider-border:             $global-border;
+$navbar-dropdown-nav-sublist-item-color:         $global-muted-color;
+$navbar-dropdown-nav-sublist-item-hover-color:   $global-color;
+$navbar-dropdown-nav-sublist-item-active-color:  $global-emphasis-color;

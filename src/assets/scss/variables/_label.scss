@@ -1,0 +1,13 @@
+$label-padding-vertical:                         7px;
+$label-padding-horizontal:                       16px;
+$label-background:                               lighten(#2788ed, 32%);
+$label-line-height:                              $global-line-height;
+$label-font-size:                                0.813rem;
+$label-color:                                    darken(#2788ed, 5%);
+
+$label-success-background:                       lighten(#3bd297, 32%);
+$label-success-color:                            darken(#3bd297, 12%);
+$label-warning-background:                       lighten($global-primary-background, 29%);
+$label-warning-color:                            darken($global-primary-background, 18%);
+$label-danger-background:                        lighten(#ee4f6f, 28%);
+$label-danger-color:                             darken(#ee4f6f, 9%);

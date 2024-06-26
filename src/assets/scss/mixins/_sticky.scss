@@ -1,0 +1,18 @@
+@mixin hook-sticky-misc(){
+    .uk-sticky {    
+        &.uk-active {
+            background: rgba(24, 24, 24, 0.75) !important;
+            box-shadow: 0 2px 15px 0 rgba(0,0,0,0.13);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            &.uk-navbar-container,
+            .uk-navbar-nav {
+                height: 70px;
+            }
+            .uk-navbar-nav > li > a,
+            .uk-navbar-item {
+                min-height: 70px;
+            }
+        }
+    }
+}

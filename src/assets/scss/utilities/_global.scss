@@ -1,0 +1,58 @@
+// app button
+.in-button-app {
+    background-color: #1a1a1a;
+}
+
+.in-button-app:hover {
+    transition: all ease 200ms;
+    background-color: $global-primary-background;
+}
+
+@media (max-width: 960px) {
+    .in-button-app {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+// highlight
+.in-highlight {
+    position: relative;
+    background: 0 0;
+    z-index: 0;
+    display: inline-block;
+    &::before {
+        content: '';
+        background: $global-primary-background;
+        border-radius: $border-rounded-border-radius;
+        position: absolute;
+        left: 0;
+        right: -2px;
+        bottom: -1px;
+        height: 4px;
+        z-index: -1;
+    }
+}
+
+// list
+.in-list-check > li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.in-list-check > li::before {
+    font-family: 'Font Awesome 6 Free'; 
+    color: $global-primary-background;
+    content: "\f058";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+// label small
+.in-label-small {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 2px 7px;
+    border-radius: 5px;
+}
